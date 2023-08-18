@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Shop Category</title>
+</head>
+
+<body>
+
+    <!-- STRAT NAVBAR -->
+
+    <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height:80px;">
+        <div class="header_area sticky-header bg-dark">
+            <div class="main_menu  fixed-top align-items-center">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+                        <div class="left">
+                        <a href="index.html" class="navbar-brand logo-h">
+                            <img src="../img/logo/download.webp" alt="logo">
+                        </a>
+                    </div>
+                    <div class="right ms-auto">
+                     
+                        <ul class="navbar-nav me-auto mb-2  mb-lg-0 ">
+                                 
+
+                                <li class="nav-item active"><a class="nav-link" href="../index.html">home</a></li>
+                                
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                      <li><a class="dropdown-item border-0" href="BlogDetails.html">Blog Details</a></li>
+                                    </ul>
+                                  </li>
+
+                             
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                      <li><a class="dropdown-item" href="tracking.html">Tracking</a></li>
+                                      <li><a class="dropdown-item border-0" href="Elements.html">Elements</a></li>
+                                    </ul>
+                                  </li>
+                                 
+
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="ShopCategory.html">Shop Category</a></li>
+                                      <li><a class="dropdown-item" href="ProductDetails.html">Product Details</a></li>
+                                      <li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
+                                      <li><a class="dropdown-item border-0" href="Confirmation.html">Confirmation</a></li>
+                                    </ul>
+                                  </li>
+
+                                
+                              
+                                  
+                                
+                                <li class="nav-ietm"><a class="nav-link" href="#">CONTACT</a></li>   
+
+                                <li class="nav-item"><a class="nav-link cart" href="#"><i class="bi bi-bag-dash"></i></a></li>
+                                <li class="nav-item"><a class="nav-link search" href="#"><i class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                   
+                      </div>
+                    </div>
+                  </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- END NAVBAR -->
+
+    <section class="banner-area">
+        <div class="container">
+            <div class="row pt-5  fullscreen align-items-center justify-content-start"
+                style="height:500px;">
+
+                <nav class="d-flex overflow-hidden ms-5 navbar-login justify-content-end flex-wrap align-items-center">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <h2>Shop Category page</h2>
+                        </div>
+                        <div class="col-lg-12"> <a href="../index.html">
+                                home
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <a href="../index.html">
+                                Fashon Category</a>
+                        </div>
+                        <div class="col-lg-12"></div>
+                    </div>
+
+
+
+
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- START sidebar -->
+
+    <section class="sidebar mt-5 pt-5">
+        <div class="container">
+            <div class="row overflow-hidden">
+
+                <div class="col-xl-3 col-lg-3 col-md-5">
+                    <div class="sidebar-categories overflow-hidden">
+                        <div class="head">Browse Categories</div>
+                        <ul class="main-categories ">
+                            <li class="my-3">
+                                <a href="#">Fruits and Vegetables <span>(53)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Meat and Fish<span>(53)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Cooking<span>(54)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Beverages<span>(59)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Home and Cleaning <span>(50)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Pest Control<span>(18)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Office Products<span>(40)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Beauty Products<span>(65)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Health Products<span>(53)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Pet Care<span>(29)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Home Appliances<span>(30)</span></a>
+                            </li>
+                            <li class="my-3">
+                                <a href="#">Baby Care <span>(48)</span></a>
+                            </li>
+                        </ul>
+                        <div class="sidebar-filter ">
+                            <div class="head">Product Filters</div>
+
+                            <div class="common-filter">
+                                <div class="sidebar-filter-title">BRANDS</div>
+                                <ul>
+                                    <li><input type="radio" name="rg1"><label for="#">Apple(29)</label></li>
+                                    <li><input type="radio" name="rg1"><label for="#">Asus(29)</label></li>
+                                    <li><input type="radio" name="rg1"><label for="#">Gionee(19)</label></li>
+                                    <li><input type="radio" name="rg1"><label for="#">Micromax(19)</label></li>
+                                    <li><input type="radio" name="rg1"><label for="#">Samsung(19)</label></li>
+                                </ul>
+                            </div>
+
+                           
+                            <div class="common-filter">
+                                <div class="sidebar-filter-title">COLOR</div>
+                                <ul>
+                                    <li><input type="radio" name="rg2"><label for="#">Apple(29)</label></li>
+                                    <li><input type="radio" name="rg2"><label for="#">Black Leather(29)</label></li>
+                                    <li><input type="radio" name="rg2"><label for="#">Black with red(19)</label></li>
+                                    <li><input type="radio" name="rg2"><label for="#">Gold(19)</label></li>
+                                    <li><input type="radio" name="rg2"><label for="#">Spacegrey(19)</label></li>
+                                </ul>
+                            </div>
+
+                            <div class="common-filter mt-5">
+                                <div class="sidebar-filter-title">PRICE</div>
+                             
+                                <div class="Price mt-5 pt-2">Price:<span>:$ 500.00 to $4000.00</span></div>
+                                    
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-lg-8 col-md-7 ">
+                    <div class="filter-bar d-flex flex-wrap align-items-center justify-content-between">
+                        
+                        <div class="sorting d-flex">
+                            <select name="sorting" id="sorting">
+                                <option value="1">Default sorting</option>
+                                <option value="1">Default sorting</option>
+                                <option value="1">Default sorting</option>
+                            </select>
+                          
+                                <select name="sorting" class="ms-2">
+                                    <option value="1">Default sorting</option>
+                                    <option value="1">Default sorting</option>
+                                    <option value="1">Default sorting</option>
+                                </select>
+                            
+                        </div>
+
+                        
+
+                        <div class="pagination">
+                            <a href="#"><i class="bi bi-arrow-left"></i></a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#" class="dot-dot">...</a>
+                            <a href="#">4</a>
+                            <a href="#"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+
+                        <!-- START OWL-CAROUSEL -->
+
+                  <section class="owl-carousel active-product-area  my-5">
+                      <div class="container" >
+
+            <div class="row mt-5 pt-5" >
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp1.jpg.pagespeed.ic.560ZlxqBFw.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp2.jpg.pagespeed.ic.1W7CKKUKmG.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp3.jpg.pagespeed.ic.aR0fg04BZ7.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp4.jpg.pagespeed.ic.JO6-Mj_No-.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp5.jpg.pagespeed.ic.OcXVPBXftT.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp6.jpg.pagespeed.ic.h0LeOyIbLA.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp7.jpg.pagespeed.ic.kfb1iU2l_H.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="single-product">
+                    <div class="product-img"><img class="w-100" src="../img/product/xp8.jpg.pagespeed.ic.7QnMlRKtxt.webp" alt=""></div>
+                   
+                    <div class="product-details">
+                        <p>addidas New Hammer sole for Sports person</p>     
+                       
+                        <div class="price">
+                            <h6>$150.00</h6>
+                            <h6 class="l-through">$210.00</h6>
+                           
+                        </div>
+
+                        <div class="prd-bottom">
+                            <a href="#" class="social-info">
+                                
+                                <span class="ti-bag"><i class="bi bi-bag-fill"></i></span>
+                              <p class="hover-text">add to bag</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-heart"></i></span>
+                              <p class="hover-text">Wishlist</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrow-repeat"></i></span>
+                              <p class="hover-text">compare</p>
+                            </a>
+
+                            <a href="#" class="social-info">
+                                <span class="ti-bag"><i class="bi bi-arrows-move"></i></span>
+                              <p class="hover-text">view more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+
+            </div>
+
+        </div>
+                </section>
+
+
+                           <!-- END OWL-CAROUSEL -->
+
+                    <div class="filter-bar d-flex flex-wrap align-items-center justify-content-between">
+                        
+                        <div class="sorting ">
+                          
+                                <select name="sorting" class="ms-2">
+                                    <option value="1">Default sorting</option>
+                                    <option value="1">Default sorting</option>
+                                    <option value="1">Default sorting</option>
+                                </select>
+                            
+                        </div>
+
+                        
+
+                        <div class="pagination">
+                            <a href="#"><i class="bi bi-arrow-left"></i></a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#" class="dot-dot">...</a>
+                            <a href="#">4</a>
+                            <a href="#"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END sidebar -->
+
+
+
+    
+
+
+    <!-- STATR FOOTER -->
+
+
+    <footer class="footer-area section_gap">
+        <div class="container">
+            <div class="row overflow-hidden">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">About Us</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore dolore
+                            magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">Newsletter</div>
+                        <p>Stay update with our latest</p>
+                        <div class="mc_embed_signup">
+                            <form action="#">
+                                <input type="email" name="email" id="email" placeholder="ENTER EMAIL">
+                                <label for="#"><i class="bi bi-arrow-right"></i></label>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">Instragram Feed</div>
+                        <ul class="instafeed d-flex flex-wrap">
+                            <li><img src="../img/footer-img/xi1.jpg.pagespeed.ic.jfLZK-H-XF.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi2.jpg.pagespeed.ic.3857ToO-Y0.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi3.jpg.pagespeed.ic.Xa_CKOsVWT (1).webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi4.jpg.pagespeed.ic.RlyWl7MZsa.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi5.jpg.pagespeed.ic.EEPJ2CxYEb.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi6.jpg.pagespeed.ic.eP8-siz_Gr.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi7.jpg.pagespeed.ic.tCrquJ1b2e (1).webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi8.jpg.pagespeed.ic.k_7KLaTiSo.webp" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">Follow Us</div>
+                        <p>Let us be social</p>
+                        <div class="footer-social d-flex align-items-center">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+                    <p>Copyright ©2022 All rights reserved | This template is made with <i class="bi bi-heart"></i> by
+                        <a href="#">AlirezaFarzin</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- END FOOTER -->
+
+
+
+    <!-- START BTN SCROLL IMG -->
+
+    <div class="scroll-img ">
+        <span class="scroll-btn"><i class="bi bi-arrow-up-circle"></i></span>
+    </div>
+
+    <!-- END BTN SCROLL IMG -->
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/products.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/jquer.js"></script>
+
+</body>
+
+</html>

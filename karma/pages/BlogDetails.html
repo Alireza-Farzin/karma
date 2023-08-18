@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>blog-deta</title>
+</head>
+
+<body>
+
+    <!-- STRAT NAVBAR -->
+
+    <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height:80px;">
+        <div class="header_area sticky-header bg-dark">
+            <div class="main_menu  fixed-top align-items-center">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+                        <div class="left">
+                        <a href="index.html" class="navbar-brand logo-h">
+                            <img src="../img/logo/download.webp" alt="logo">
+                        </a>
+                    </div>
+                    <div class="right ms-auto">
+                     
+                        <ul class="navbar-nav me-auto mb-2  mb-lg-0 ">
+                                 
+
+                                <li class="nav-item active"><a class="nav-link" href="../index.html">home</a></li>
+                                
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                      <li><a class="dropdown-item border-0" href="BlogDetails.html">Blog Details</a></li>
+                                    </ul>
+                                  </li>
+
+                             
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                      <li><a class="dropdown-item" href="tracking.html">Tracking</a></li>
+                                      <li><a class="dropdown-item border-0" href="Elements.html">Elements</a></li>
+                                    </ul>
+                                  </li>
+                                 
+
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="ShopCategory.html">Shop Category</a></li>
+                                      <li><a class="dropdown-item" href="ProductDetails.html">Product Details</a></li>
+                                      <li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
+                                      <li><a class="dropdown-item border-0" href="Confirmation.html">Confirmation</a></li>
+                                    </ul>
+                                  </li>
+
+                                
+                              
+                                  
+                                
+                                <li class="nav-ietm"><a class="nav-link" href="#">CONTACT</a></li>   
+
+                                <li class="nav-item"><a class="nav-link cart" href="#"><i class="bi bi-bag-dash"></i></a></li>
+                                <li class="nav-item"><a class="nav-link search" href="#"><i class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                   
+                      </div>
+                    </div>
+                  </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- END NAVBAR -->
+
+    <section class="banner-area overflow-hidden">
+        <div class="container">
+            <div class="row pt-5 overflow-hidden fullscreen align-items-center justify-content-start"
+                style="height:500px;">
+
+                <nav class="d-flex overflow-hidden ms-5 navbar-login justify-content-end flex-wrap align-items-center">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <h2>Blog Page</h2>
+                        </div>
+                        <div class="col-lg-12"> <a href="../index.html">
+                                home
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <a href="../index.html">Blog</a>
+
+                        </div>
+                        <div class="col-lg-12"></div>
+                    </div>
+
+
+
+
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- START section_gap -->
+
+    <section class="blog_area single-post-area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="single-post row">
+                        <div class="col--lg-12">
+                            <div class="feature-img">
+                                <img class="img-fluid w-100"
+                                    src="../img/aside/xfeature-img1.jpg.pagespeed.ic.6v6CI5mm0C.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-3  col-md-3 ">
+                            <div class="blog_info text-right">
+                                <div class="post_tag">
+                                    <a href="#">Food,</a>
+                                    <a href="#" class="active">Technology,</a>
+                                    <a href="#">Politics,</a>
+                                    <a href="#">Lifestyle,</a>
+                                </div>
+
+                                <ul class="blog_meta list">
+                                    <li><a href="#">
+                                            Mark wiens
+                                            <i class="bi bi-person"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            12 Dec, 2018
+                                            <i class="bi bi-calendar2-range-fill"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            1.2M Views
+                                            <i class="bi bi-eye-fill"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            06 Comments
+                                            <i class="bi bi-chat"></i>
+                                        </a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                                <ul class="social-links">
+
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9  col-md-9 blog_details pt-4">
+                            <h2>Astronomy Binoculars A Great Alternative</h2>
+                            <p class="excert">
+                                MCSE boot camps have its supporters and its detractors. Some people do not understand
+                                why you should have to spend money on boot camp when you can get the MCSE study
+                                materials yourself at a fraction.</p>
+                            <p>
+                                Boot camps have its supporters and its detractors. Some people do not understand why
+                                you should have to spend money on boot camp when you can get the MCSE study materials
+                                yourself at a fraction of the camp price. However, who has the willpower to actually
+                                sit through a self-imposed MCSE training. who has the willpower to actually sit through
+                                a self-imposed</p>
+                            <p>
+                                Boot camps have its supporters and its detractors. Some people do not understand why
+                                you should have to spend money on boot camp when you can get the MCSE study materials
+                                yourself at a fraction of the camp price. However, who has the willpower to actually
+                                sit through a self-imposed MCSE training. who has the willpower to actually sit through
+                                a self-imposed</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="quotes">
+
+                                MCSE boot camps have its supporters and its detractors. Some people do not understand
+                                why you should have to spend money on boot camp when you can get the MCSE study
+                                materials yourself at a fraction of the camp price. However, who has the willpower to
+                                actually sit through a self-imposed MCSE training.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img class="img-fluid w-100" src="../img/aside/xpost-img1.jpg.pagespeed.ic.UeMlV6U-bS.webp" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid w-100" src="../img/aside/xpost-img2.jpg.pagespeed.ic.1S4bA8GR37.webp" alt="">
+                            </div>
+                            <div class="col-lg-12">
+                                <p class="my-2">
+                                    MCSE boot camps have its supporters and its detractors. Some people do not
+                                    understand why you should have to spend money on boot camp when you can get the
+                                    MCSE study materials yourself at a fraction of the camp price. However, who has
+                                    the willpower.</p>
+                                    <p class="my-2">
+                                        MCSE boot camps have its supporters and its detractors. Some people do not
+                                        understand why you should have to spend money on boot camp when you can get the
+                                        MCSE study materials yourself at a fraction of the camp price. However, who has
+                                        the willpower.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-area">
+                        <div class="row">
+                        
+                            <div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="img-fluid" src="../img/aside/download (5).webp" alt="1">
+                                    </a>
+                                    
+                                </div>
+                            
+                                <div class="detials">
+                                    <p>Prev Post</p>
+                                    <a href="#">Space The Final Frontier</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
+                                
+                            
+                                <div class="detials">
+                                    <p class="ps-5">Next Pos</p>
+                                    <a href="#">Telescopes 101</a>
+                                </div>
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="img-fluid" src="../img/aside/download (6).webp" alt="1">
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="comments-area">
+                        <h4>05 Comments</h4>
+                        <div class="comment-list">
+                            <div class="single-comment justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img class="img-fluid" src="../img/aside/download (7).webp" alt="icons">
+                                    </div>
+                                    <div class="desc">
+                                        <h5><a href="#">Emilly Blunt</a></h5>
+                                        <p class="date">December 4, 2018 at 3:12 pm </p>
+                                        <div class="comment">Never say goodbye till the end comes!</div>
+                                            
+                                    </div>
+                                </div>
+                                <div class="reply-btn">
+                                    <a href="#" class="btn-reply">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-list">
+                            <div class="single-comment justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img class="img-fluid" src="../img/aside/download (8).webp" alt="icons">
+                                    </div>
+                                    <div class="desc">
+                                        <h5><a href="#">Emilly Blunt</a></h5>
+                                        <p class="date">December 4, 2018 at 3:12 pm </p>
+                                        <div class="comment">Never say goodbye till the end comes!</div>
+                                            
+                                    </div>
+                                </div>
+                                <div class="reply-btn">
+                                    <a href="#" class="btn-reply">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-list">
+                            <div class="single-comment justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img class="img-fluid" src="../img/aside/download (9).webp" alt="icons">
+                                    </div>
+                                    <div class="desc">
+                                        <h5><a href="#">Emilly Blunt</a></h5>
+                                        <p class="date">December 4, 2018 at 3:12 pm </p>
+                                        <div class="comment">Never say goodbye till the end comes!</div>
+                                            
+                                    </div>
+                                </div>
+                                <div class="reply-btn">
+                                    <a href="#" class="btn-reply">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-list">
+                            <div class="single-comment justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img class="img-fluid" src="../img/aside/download (10).webp" alt="icons">
+                                    </div>
+                                    <div class="desc">
+                                        <h5><a href="#">Emilly Blunt</a></h5>
+                                        <p class="date">December 4, 2018 at 3:12 pm </p>
+                                        <div class="comment">Never say goodbye till the end comes!</div>
+                                            
+                                    </div>
+                                </div>
+                                <div class="reply-btn">
+                                    <a href="#" class="btn-reply">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-list">
+                            <div class="single-comment justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img class="img-fluid" src="../img/aside/download (11).webp" alt="icons">
+                                    </div>
+                                    <div class="desc">
+                                        <h5><a href="#">Emilly Blunt</a></h5>
+                                        <p class="date">December 4, 2018 at 3:12 pm </p>
+                                        <div class="comment">Never say goodbye till the end comes!</div>
+                                            
+                                    </div>
+                                </div>
+                                <div class="reply-btn">
+                                    <a href="#" class="btn-reply">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-list">
+                            <div class="single-comment justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img class="img-fluid" src="../img/aside/download (12).webp" alt="icons">
+                                    </div>
+                                    <div class="desc">
+                                        <h5><a href="#">Emilly Blunt</a></h5>
+                                        <p class="date">December 4, 2018 at 3:12 pm </p>
+                                        <div class="comment">Never say goodbye till the end comes!</div>
+                                            
+                                    </div>
+                                </div>
+                                <div class="reply-btn">
+                                    <a href="#" class="btn-reply">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-form">
+                        <h4>Leave a Reply</h4>
+                        <form action="#">
+                            <div class="mt-5 row form-inline">
+                                <div class="col-lg-6 col-md-6 name">
+                                    <input type="text" class="form-control" placeholder="Enter Name">
+                                </div>
+                                <div class="col-lg-6 col-md-6 email">
+                                    <input type="email" placeholder="Enter email address" class="form-control">
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="mt-4">
+                                <textarea name="Messege" class="form-control" placeholder="Messege" ></textarea>
+                            </div>
+                            <a href="#" class="mt-4 primary-btn submit_btn text-white">Post Comment</a>
+                        </form>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="blog_right_sidebar">
+
+                        <aside class="single_sidebar_widget search_widget">
+                            <div class="input-group">
+                                <input type="text" class="form-control"  placeholder="Search Posts">
+                            </div>
+                            <span class="input-group-btn">
+                                <i class="bi bi-search"></i> 
+                               </span>
+                               <div class="br"></div>
+                        </aside>
+
+                        <aside class="single_sidebar_widget author_widget">
+                            <img src="../img/aside/xauthor.png.pagespeed.ic.1A1JgX1vWU.webp" alt="">
+                            <h4>Charlie Barber</h4>
+                            <p>Senior blog writer</p>
+                            <div class="social_icon">
+
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+
+                                <a href="#"><i class="bi bi-github"></i></a>
+
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+
+                            </div>
+                            <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
+                            <div class="br"></div>
+                        </aside>
+
+                        <aside class="single_sidebar_widget popular_post_widget">
+                            <h3>Popular Posts</h3>
+                            
+                               <div class="media post_item">
+                                    <img src="../img/aside/download.webp" alt="aside">
+                               
+                                    <div class="media-body">
+                                        <a href="#">Space The Final Frontier</a>
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                    
+                                </div>
+
+                               <div class="media post_item">
+                                    <img src="../img/aside/download (1).webp" alt="aside">
+                               
+                                    <div class="media-body">
+                                        <a href="#">The Amazing Hubble</a>
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                    
+                                </div> 
+
+                               <div class="media post_item">
+                                    <img src="../img/aside/download (2).webp" alt="aside">
+                               
+                                    <div class="media-body">
+                                        <a href="#">Astronomy Or Astrology</a>
+                                        <p>03 Hours ago</p>
+                                    </div>
+                                    
+                                </div> 
+
+                               <div class="media post_item">
+                                    <img src="../img/aside/download (3).webp" alt="aside">
+                               
+                                    <div class="media-body">
+                                        <a href="#">Asteroids telescope</a>
+                                        <p>01 Hours ago</p>
+                                    </div>
+                                    
+                                </div> 
+                            <div class="br"></div>
+                        </aside>
+
+                        <aside class="single_sidebar_widget ads_widget">
+                            <a href="#">
+                                <img src="../img/aside/download (4).webp" alt="">
+                            </a>
+                            <div class="br"></div>
+                        </aside>
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h3>Post Catgories</h3>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Technology</p>
+                                        <p>37</p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Lifestyle</p>
+
+                                            
+                                        <p>24</p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Fashion</p>
+
+                                        
+                                        <p>59</p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Art</p>
+
+                                        
+                                        <p>29</p>
+                                    </a>
+                                </li>
+
+                                <li> 
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Food</p>
+
+                                        
+                                        <p>15</p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Architecture</p>
+                                        <p>09</p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between">
+                                        <p>Adventure</p>
+
+                                        
+                                        <p>44</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <div class="br"></div>
+                        </aside>
+
+                        <aside class="single-sidebar-widget newsletter_widget">
+                            <h3>Newsletter</h3>
+                            <p>
+                                Here, I focus on a range of items and features that we use in life without
+                                giving them a second thought.</p>
+                            <div class="form-group d-flex flex-row">
+                                <input type="email" placeholder="Enter email">
+                                <i class="bi bi-envelope-fill"></i>
+                                <button type="submit">Subcribe</button>
+                                
+                            </div>
+                            <p class="p-2">You can unsubscribe at any time</p>
+                            <div class="br"></div>
+                        </aside>
+                        <aside class="single-sidebar-widget tag_cloud_widget">
+                            <h3>Tag Clouds</h3>
+                            <ul class="list">
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Architecture</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Art</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Adventure</a></li>
+                            </ul>
+                        </aside>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- END  section_gap -->
+    <footer class="footer-area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">About Us</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore dolore
+                            magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">Newsletter</div>
+                        <p>Stay update with our latest</p>
+                        <div class="mc_embed_signup">
+                            <form action="#">
+                                <input type="email" name="email" id="email" placeholder="ENTER EMAIL">
+                                <label for="#"><i class="bi bi-arrow-right"></i></label>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">Instragram Feed</div>
+                        <ul class="instafeed d-flex flex-wrap">
+                            <li><img src="../img/footer-img/xi1.jpg.pagespeed.ic.jfLZK-H-XF.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi2.jpg.pagespeed.ic.3857ToO-Y0.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi3.jpg.pagespeed.ic.Xa_CKOsVWT (1).webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi4.jpg.pagespeed.ic.RlyWl7MZsa.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi5.jpg.pagespeed.ic.EEPJ2CxYEb.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi6.jpg.pagespeed.ic.eP8-siz_Gr.webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi7.jpg.pagespeed.ic.tCrquJ1b2e (1).webp" alt=""></li>
+                            <li><img src="../img/footer-img/xi8.jpg.pagespeed.ic.k_7KLaTiSo.webp" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="title">Follow Us</div>
+                        <p>Let us be social</p>
+                        <div class="footer-social d-flex align-items-center">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+                    <p>Copyright ©2022 All rights reserved | This template is made with <i class="bi bi-heart"></i> by
+                        <a href="#">AlirezaFarzin</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- START BTN SCROLL IMG -->
+
+    <div class="scroll-img ">
+        <span class="scroll-btn"><i class="bi bi-arrow-up-circle"></i></span>
+    </div>
+
+    <!-- END BTN SCROLL IMG -->
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/jquer.js"></script>
+
+</body>
+
+</html>
